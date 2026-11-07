@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#070B1A">
+<meta name="color-scheme" content="dark">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://accounts.google.com; connect-src 'self' https://www.googleapis.com https://accounts.google.com; frame-src https://accounts.google.com; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline' https://accounts.google.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<title>Blockchain Keep</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="keep.css">
+</head>
+<body>
+<div id="app" aria-live="polite"></div>
+<div id="layer" class="layer"></div>
+<div id="toasts" class="toasts" role="status"></div>
+<noscript><p style="padding:24px;color:#E8ECFF">Blockchain Keep membutuhkan JavaScript.</p></noscript>
+
+<script src="sandi.js"></script>
+<script src="data.js"></script>
+<script src="drive.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
