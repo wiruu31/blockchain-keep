@@ -41,19 +41,6 @@ Tidak ada library pihak ketiga dan tidak ada proses build. Aplikasi tidak memuat
 
 ---
 
-## Cara memasang (GitHub Pages, dari HP)
-
-1. Buka **github.com** di Chrome HP, lalu masuk atau daftar.
-2. Buat repositori baru, misalnya `blockchain-keep`, dengan visibilitas **Public**. Isinya hanya kode aplikasi, bukan datamu. Data tetap terenkripsi dan tersimpan di perangkat serta Drive-mu.
-3. Di repositori itu pilih **Add file → Upload files**, lalu pilih **semua file** di folder ini sekaligus (15 file) dan **Commit changes**.
-4. Buka **Settings → Pages**. Di *Build and deployment*, pilih **Deploy from a branch**, branch `main`, folder `/ (root)`, lalu **Save**.
-5. Tunggu 1 sampai 2 menit. Alamatnya: `https://NAMA-GITHUB-KAMU.github.io/blockchain-keep/`
-6. Buka alamat itu di Chrome HP, lalu menu ⋮ → **Instal aplikasi** (atau **Tambahkan ke layar utama**).
-
-> Kalau mau memperbarui aplikasi di kemudian hari: upload ulang file yang berubah, lalu **naikkan `VERSION` di `sw.js`** (mis. `1.0.1`) agar HP memakai versi baru, bukan salinan lama dari cache.
-
----
-
 ## Menghubungkan Google Drive (sekali saja)
 
 Langkah ini membuat "Client ID" supaya aplikasimu boleh meminta izin ke Drive-mu sendiri. Gratis dan bisa dari HP. Tampilan Google Cloud sering berubah, jadi nama menu bisa sedikit berbeda.
